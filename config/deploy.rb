@@ -2,7 +2,7 @@
 lock '3.3.5'
 
 set :application, 'waitlist'
-set :repo_url, 'git@github.com:katiespiders/capstone-ec2.git'
+set :repo_url, 'git://github.com/katiespiders/capstone-ec2.git'
 set :use_sudo, false
 
 set :deploy_to, '/var/www/waitlist'
